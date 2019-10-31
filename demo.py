@@ -153,4 +153,19 @@ print("今天是{year}年的第{x}天".format(year=a,x=d+c))
 num = int(input("请输入一个五位数的数字："))
 num = str(num)
 print("".join(reversed(num)))
-'''
+
+a = 10 
+while a > 1:
+    print(a)
+    a = a - 1
+ 
+xx = ["nihao",233.33,44,55,66,77,"哈哈","拉拉"]
+for i in xx:
+    if(type(i) is not int) and (type(i) is not float):
+        continue
+    print(i)
+
+import time
+for i in 
+'''  
+from mysql import query,commit
