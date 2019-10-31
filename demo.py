@@ -50,7 +50,7 @@ c = input("请输入你的职业：")
 xx = "输出的名字是{name},年龄是{age}，职业是{job}".format(name=a,age=b,job=c)#format格式化字符串
 print(xx)
 print(xx[0])
-'''
+
 money = input("请输入发红包的值：")
 for i in money:
     if i  not in "0123456789.":
@@ -78,7 +78,7 @@ else:
         else:
             print("{}不符合红包发送范围，请检查后输入".format(money))
 
-''''
+
 num = int(input("请输入一个分数"))
 if num>100:
     print("你输入的值大于100")
@@ -98,4 +98,59 @@ a = 0
 for i in xx:
     a = a+1
 print(a)
+
+
+for i in range(1,10):
+    for j in range(1,i+1):#九九乘法表
+        print("{i}*{j}={f}".format(i=i,j=j,f=i*j),end = " ")
+    print()
+
+xx=[34,565,77,435,23,45,67,78,43,234,56,78,98,66,16,456,456,56]
+xa=[]
+xb=[]
+print("数列x中一共有：{a}个数字".format(a=a))#分割数组
+for i in xx:
+    if xx[i] > 100:
+        xa.append(i)
+    else:
+        xb.append(i)
+print("大于100的数组xa为：{a}小于100的数组xb为：{b}".format(a=xa,b=xb))
+
+for i in [1,2,3,4,5,6,7,8,9]:
+    for j in [1,2,3,4,5,6,7,8,9,]:
+        print("{}*{}={}".format(i,j,i*j),end = " ")
+    print()
+for i in range(1,10):
+    for j in range(1,i+1):#九九乘法表
+        print("{i}*{j}={f}".format(i=i,j=j,f=i*j),end = " ")
+    print()
+
+xx=[34,565,77,435,23,45,67,78,43,234,56,78,98,66,16,456,456,56]
+xa=[]
+xb=[]
+for i in xx:
+    if i > 100:
+        xa.append(i)
+    else:
+        xb.append(i)
+print("大于100的数组xa为：{a}小于100的数组xb为：{b}".format(a=xa,b=xb))
+
+a = int(input("请输入年份"))
+b = int(input("请输入月份"))
+c = int(input("请输入日期"))
+d = 0
+month = [31,31,30,31,30,31,31,30,31,30,31]
+if a%400==0 or(a%4==0 and a%100!=0):
+    month.insert(1,29)
+    for i in range(b-1):
+        d = d + month[i]
+else:
+    month.insert(1,28)
+    for i in range(b-1):
+        d = d + month[i]
+print("今天是{year}年的第{x}天".format(year=a,x=d+c))
+
+num = int(input("请输入一个五位数的数字："))
+num = str(num)
+print("".join(reversed(num)))
 '''
