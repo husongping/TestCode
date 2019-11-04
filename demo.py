@@ -168,4 +168,11 @@ for i in xx:
 import time
 for i in 
 '''  
-from mysql import query,commit
+# from mysql import query,commit
+# xx = ["nihao",233.33,44,55,66,77,"哈哈","拉拉"]
+# for i in xx:
+#     print(i)
+a = 10 
+while a > 1:
+    print(a)
+    a = a - 1
