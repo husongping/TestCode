@@ -1,7 +1,6 @@
 # 第一步：导入selenium
 from selenium import webdriver
 
-
 # 第二步：打开谷歌浏览器
 driver = webdriver.Chrome(executable_path="./chromedriver.exe")
 
@@ -17,4 +16,4 @@ element2 = driver.find_element_by_id("su")
 element2.click()
 
 # 最后一步: 结束测试
-driver.quit()
+driver.quit()    
