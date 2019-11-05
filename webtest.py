@@ -65,10 +65,12 @@ mai = '/html/body/div[4]/div[2]/div[2]/div[3]/div[2]/div/button'
 #点击购买按钮
 m = driver.find_element_by_xpath(mai)
 m.click()
-#切换大网页和小网页作用域
 time.sleep(2)
+#切换大网页和小网页作用域
 f = driver.find_element_by_xpath('//*[@id="common-popup-modal-login"]/div/iframe')
 driver.switch_to_frame(f)#切换至frame的作用域
 #输入username
 um = driver.find_element_by_xpath('/html/body/div[1]/form/div[2]/input')
 um.send_keys('1234568910')
+# 退出
+# driver.quit()
