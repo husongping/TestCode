@@ -43,3 +43,4 @@ if a in nm.text:
 else:
     print("添加失败")
 # driver.quit()
+from selenium.webdriver.support.ui import WebDriverWait
