@@ -1,12 +1,23 @@
 #unittest的测试用例
 
 #必须先导入unittest
+"""生命周期：
+setUpClass> setUp(01) >test_01>tearDown(01)>  setUp(02) >test_02>tearDown(02) > tearDownClass
+"""
+
 import unittest
 from selenium import webdriver
 import time
 
 #1、测试用例必须继承unittest.TestCase
 class TestCaseLogin(unittest.TestCase):
+
+
+
+
+
+
+
   
     #2、成员方法名字必须要以test_开头（unittest强制规定）
     #测试用例：
