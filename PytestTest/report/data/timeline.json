@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MYMSI",
+    "children" : [ {
+      "name" : "18120-MainThread",
+      "children" : [ {
+        "name" : "test_01_login_success",
+        "uid" : "f8128dc29d0b30d2",
+        "parentUid" : "4d093fd53aa2f001b800600aa3dac4f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574085743713,
+          "stop" : 1574085743866,
+          "duration" : 153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d093fd53aa2f001b800600aa3dac4f8"
+    } ],
+    "uid" : "641943dcc43d95ce63496171673bea52"
+  } ]
+}

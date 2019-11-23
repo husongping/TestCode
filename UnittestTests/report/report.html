@@ -197,9 +197,9 @@
         
     <div class='page-header'>
         <h1>测试报告</h1>
-    <p class='attribute'><strong>开始时间:</strong> 2019-11-14 21:53:46</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:30.205725</p>
-<p class='attribute'><strong>状态:</strong> 通过 1 失败 1 错误 1</p>
+    <p class='attribute'><strong>开始时间:</strong> 2019-11-20 21:42:05</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:59.042832</p>
+<p class='attribute'><strong>状态:</strong> 通过 2 失败 2 错误 2</p>
 
     </div>
     <div style="float: left;width:50%;"><p class='description'>测试报告的描述</p></div>
@@ -269,7 +269,7 @@
     <div id='div_ft1.2' class="popup_window">
         <pre>
         ft1.2: Traceback (most recent call last):
-  File "D:\TestCode\UnittestTests\cases\test_login.py", line 41, in test_02_login_failed
+  File "D:\TestCode\UnittestTests\cases\test_login.py", line 42, in test_02_login_failed
     self.assertEqual(url,"http://132.232.44.158:9999/shopxo/admin.php?s=/index/index.html")
 AssertionError: 'http://132.232.44.158:9999/shopxo/admin.php?s=/admin/logininfo.html' != 'http://132.232.44.158:9999/shopxo/admin.php?s=/index/index.html'
 - http://132.232.44.158:9999/shopxo/admin.php?s=/admin/logininfo.html
@@ -307,7 +307,100 @@ FileNotFoundError: [WinError 2] 系统找不到指定的文件。
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "D:\TestCode\UnittestTests\cases\test_login.py", line 46, in test_03_login_failed
+  File "D:\TestCode\UnittestTests\cases\test_login.py", line 47, in test_03_login_failed
+    driver = webdriver.Chrome(executable_path=chromedriver)#实例化浏览器。打开浏览器获得操作对象
+  File "C:\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Python38\lib\site-packages\selenium\webdriver\common\service.py", line 81, in start
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+    <tr class='errorClass'>
+        <td>test_login02.TestCaseLogin</td>
+        <td>3</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td><a href="javascript:showClassDetail('c2',3)">详情</a></td>
+    </tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_01_login_success</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        通过</a>
+
+    <div id='div_pt2.1' class="popup_window">
+        <pre>
+        pt2.1: 登陆成功
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft2.2' class='none'>
+    <td class='failCase'><div class='testcase'>test_02_login_failed</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.2')" >
+        失败</a>
+
+    <div id='div_ft2.2' class="popup_window">
+        <pre>
+        ft2.2: Traceback (most recent call last):
+  File "D:\TestCode\UnittestTests\cases\test_login02.py", line 53, in test_02_login_failed
+    self.assertEqual(url,"http://132.232.44.158:9999/shopxo/admin.php?s=/index/index.html")
+AssertionError: 'http://132.232.44.158:9999/shopxo/admin.php?s=/admin/logininfo.html' != 'http://132.232.44.158:9999/shopxo/admin.php?s=/index/index.html'
+- http://132.232.44.158:9999/shopxo/admin.php?s=/admin/logininfo.html
+?                                                ---   ---  ^^^^
++ http://132.232.44.158:9999/shopxo/admin.php?s=/index/index.html
+?                                                  +++   ^^^
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft2.3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_03_login_failed</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.3')" >
+        错误</a>
+
+    <div id='div_ft2.3' class="popup_window">
+        <pre>
+        ft2.3: Traceback (most recent call last):
+  File "C:\Python38\lib\site-packages\selenium\webdriver\common\service.py", line 72, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "C:\Python38\lib\subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Python38\lib\subprocess.py", line 1307, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\TestCode\UnittestTests\cases\test_login02.py", line 58, in test_03_login_failed
     driver = webdriver.Chrome(executable_path=chromedriver)#实例化浏览器。打开浏览器获得操作对象
   File "C:\Python38\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
     self.service.start()
@@ -325,10 +418,10 @@ selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' execu
 
         <tr id='total_row'>
             <td>总计</td>
-            <td>3</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td>6</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
             <td>&nbsp;</td>
         </tr>
     </table>
@@ -362,9 +455,9 @@ selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' execu
                     radius : '60%',
                     center: ['50%', '60%'],
                     data:[
-                        {value:1, name:'通过'},
-                        {value:1, name:'失败'},
-                        {value:1, name:'错误'}
+                        {value:2, name:'通过'},
+                        {value:2, name:'失败'},
+                        {value:2, name:'错误'}
                     ],
                     itemStyle: {
                         emphasis: {

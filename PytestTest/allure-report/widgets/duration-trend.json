@@ -1,0 +1,141 @@
+[ {
+  "buildOrder" : 584,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/584/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 147
+  }
+}, {
+  "buildOrder" : 583,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/583/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 145
+  }
+}, {
+  "buildOrder" : 582,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/582/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 151
+  }
+}, {
+  "buildOrder" : 581,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/581/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 146
+  }
+}, {
+  "buildOrder" : 580,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/580/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 157
+  }
+}, {
+  "buildOrder" : 579,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/579/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 148
+  }
+}, {
+  "buildOrder" : 578,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/578/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 158
+  }
+}, {
+  "buildOrder" : 577,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/577/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 146
+  }
+}, {
+  "buildOrder" : 576,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/576/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 157
+  }
+}, {
+  "buildOrder" : 575,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/575/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 146
+  }
+}, {
+  "buildOrder" : 574,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/574/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 143
+  }
+}, {
+  "buildOrder" : 573,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/573/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 150
+  }
+}, {
+  "buildOrder" : 572,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/572/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 147
+  }
+}, {
+  "buildOrder" : 571,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/571/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 146
+  }
+}, {
+  "buildOrder" : 570,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/570/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 148
+  }
+}, {
+  "buildOrder" : 569,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/569/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 149
+  }
+}, {
+  "buildOrder" : 568,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/568/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 151
+  }
+}, {
+  "buildOrder" : 567,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/567/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 160
+  }
+}, {
+  "buildOrder" : 566,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/566/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 159
+  }
+}, {
+  "buildOrder" : 565,
+  "reportUrl" : "http://localhost:8080/jenkins/job/test02_pytest+allure/565/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 146
+  }
+} ]
