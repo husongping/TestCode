@@ -1,8 +1,0 @@
-{
-  "code": 200, 
-  "data": {
-    "token": "sd7itxoj-pzgo-bf14-tqtt-132yn4eib5aw"
-  }, 
-  "msg": "登录成功!"
-}
-

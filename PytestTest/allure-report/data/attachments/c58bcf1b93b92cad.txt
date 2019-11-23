@@ -1,8 +1,0 @@
-{
-  "code": 200, 
-  "data": {
-    "token": "jog1h11y-rf4g-glf2-0ruc-ibj0vbl11e2l"
-  }, 
-  "msg": "登录成功!"
-}
-

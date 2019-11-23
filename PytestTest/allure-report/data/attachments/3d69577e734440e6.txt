@@ -1,8 +1,0 @@
-{
-  "code": 200, 
-  "data": {
-    "token": "7eq6kdga-vxgp-gdli-8vu4-0tx0vsifq8xf"
-  }, 
-  "msg": "登录成功!"
-}
-
