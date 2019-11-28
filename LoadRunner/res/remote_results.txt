@@ -1,0 +1,2 @@
+[Hosts]
+localhost=D:\TestCode\LoadRunner\res\localhost_1.eve

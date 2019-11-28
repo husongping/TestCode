@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\TestCode\LoadRunner
+-ID:\HP\include
+-ed:\testcode\loadrunner\\logfile.log
+d:\testcode\loadrunner\\combined_LoadRunner.c
+d:\testcode\loadrunner\\pre_cci.c
