@@ -1,9 +1,9 @@
 HTTP/1.1 200 OK
 Server: gunicorn/19.9.0
-Date: Thu, 28 Nov 2019 13:24:48 GMT
+Date: Fri, 29 Nov 2019 12:03:16 GMT
 Connection: keep-alive
 Content-Type: application/json
 Content-Length: 115
 Vary: Cookie
-Set-Cookie: session=.eJyVULtuwzAM_JWCcwREsuO4mrv0KwpWYmzXsuzqUQcJ8u-lIbdDtw4CH8fjHXWHHCmAvgNaGyhG0AAHwI5A--zcAQw5t_Szp4KYQJjohR_X6ihbIZVQzZNsdHXWUvEI2WwwDbMvDJpwcCUdLOi65Th1e2PqXu2Pkh_M6HHaFieK6ZnxBWNc58AjIFVVnxruBV4YxsKPdN2TofOYcthdxsQF3yIPkOaRNidrfP_4vNzO4jZfj-ISiUTfnWphHLZOfWFGWzEzL_b3vmJr-6A_tlYyPaZN6lHwt3-pPL4BH1pz-A.Xd_KoA.mkFBLaxdxehx70JfB008u4pxctY; HttpOnly; Path=/
+Set-Cookie: session=.eJyVUEluwzAM_ErBswVEiuvEOvfSVxSCxNqKtRha6izI3ytBbg-99UBwGZIz5ANyxAD8AUKpgDECB-hATAjcZWM6kGjMOnuHDZEBRcK3YiVnB3omlBE2vNCBH0-cstKCKkuRtHdtAq3QpoVaAe_PxdtpL9jpXf0wOS0XJ2xdnDCmseCriHHzobQAZcf-dSi1UBaGpc1HvO6BnpxIOewqYypJuYV2kPyCVclXCH40dCSXzUpCDR4Iu1FP-vvt8zInfxJbFZ9X9Xtfk1Uf9EfWhnIWqVI9G_7xL5bnN9LpcyI.XeEJBA.nzHmUaLj9vsAN0dt5YwTJ7zP-fI; HttpOnly; Path=/
 

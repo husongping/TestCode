@@ -58,7 +58,7 @@ Schedule Name=Default Schedule
 Mode=Scenario Scheduling
 Load Behavior=Property
 Scenario Duration=Until Completion
-NumGraphs=5
+NumGraphs=6
 
 [DimensionFunctions]
 DimeFuncCount=1

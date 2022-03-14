@@ -50,7 +50,7 @@ automatic_nested_transactions="1"
 XlBridgeTimeout="120"
 UseThreads="1"
 iter_ends_val="fixed"
-DefaultRunLogic="uspvF7.431"
+DefaultRunLogic=uspZmz.373
 AutomaticTransactionsPerFunc="0"
 iter_begins_val="fixed"
 FailTransOnErrorMsg="0"
@@ -72,3 +72,5 @@ ThinkTimeRandomHigh="200"
 ThinkTimeRandomLow="20"
 Limit="1"
 LimitFlag="0"
+[RtsConfigfuration]
+AUTMode=1

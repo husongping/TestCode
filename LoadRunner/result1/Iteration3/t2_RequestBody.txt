@@ -1,1 +1,1 @@
-"{"id":1, "content":"lalalalala","token": "nfjb7mnp-onr2-smpp-w7lq-thrn1aclgnx2"}"
+"{"id":1, "content":"lalalalala","token": "vn2qvsn7-jd7o-1d8s-1o5i-lrm48nkm5std"}"

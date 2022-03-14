@@ -1,15 +1,15 @@
 [Scenario]
 Product=HP LoadRunner Controller
 Version=11.0.0.0
-Path=Scenario1
+Path=D:\TestCode\LoadRunner\Scenario1.lrs
 Subject=
 Result_file=D:\TestCode\LoadRunner\res\res.lrr
 Description=
 ResultName=res
 Time_Zone=-28800
-Start_time=1574949476
+Start_time=1575029153
 Daylight_Bias=0
-Stop_time=1574949620
+Stop_time=1575029297
 [Configuration]
 Public_local=1
 Is_mix=1
@@ -27,6 +27,6 @@ Mode=Scenario Scheduling
 Scenario Duration=Until Completion
 Load Behavior=Property
 [Scripts]
-LoadRunner=D:\TestCode\LoadRunner\LoadRunner.usr
+loadrunner=D:\TestCode\LoadRunner\LoadRunner.usr
 [Scripts_types]
-LoadRunner=Multi+QTWeb
+loadrunner=Multi+QTWeb
